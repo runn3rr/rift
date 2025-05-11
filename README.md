@@ -17,37 +17,36 @@ If you misuse this tool, the responsibility falls solely on you, and I will **NO
 
 ## Features
 
-- <span style="color: #66FF66;"><strong>Ban Members</strong></span>: Ban users from the server.
-- <span style="color: #66FF66;"><strong>Unban Members</strong></span>: Unban users from the server.
-- <span style="color: #FFCC66;"><strong>Create Channels</strong></span>: Create new text or voice channels.
-- <span style="color: #FFCC66;"><strong>Delete Channels</strong></span>: Delete existing channels.
-- <span style="color: #FFCC66;"><strong>Create Roles</strong></span>: Create new roles in the server.
-- <span style="color: #FFCC66;"><strong>Delete Roles</strong></span>: Delete roles from the server.
-- <span style="color: #FFCC66;"><strong>Spam Webhook</strong></span>: Spam messages through a webhook.
-- <span style="color: #FFCC66;"><strong>Lock Channels</strong></span>: Lock text channels, preventing users from sending messages.
-- <span style="color: #FFCC66;"><strong>Unlock Channels</strong></span>: Unlock text channels, allowing users to send messages again.
-- <span style="color: #FFCC66;"><strong>Rename Channel</strong></span>: Rename existing channels.
-- <span style="color: #FFCC66;"><strong>Rename Roles</strong></span>: Rename roles in the server.
-- <span style="color: #FFCC66;"><strong>Rename Guild</strong></span>: Rename the entire server (guild).
-- <span style="color: #FFCC66;"><strong>Spam Channels</strong></span>: Create and spam text channels in the server.
-- <span style="color: #FF6666;"><strong>Rape Guild</strong></span>: This feature is extremely destructive and should be used with caution. It will attempt to fully take over and destroy the server, including deleting channels, roles, and banning users.
+- <strong>🟢 Ban Members</strong></span>: Ban users from the server.
+- <strong>🟢 Unban Members</strong></span>: Unban users from the server.
+- <strong>🟠 Create Channels</strong></span>: Create new text or voice channels.
+- <strong>🟠 Delete Channels</strong></span>: Delete existing channels.
+- <strong>🟠 Create Roles</strong></span>: Create new roles in the server.
+- <strong>🟠 Delete Roles</strong></span>: Delete roles from the server.
+- <strong>🟠 Spam Webhook</strong></span>: Spam messages through a webhook.
+- <strong>🟠 Lock Channels</strong></span>: Lock text channels, preventing users from sending messages.
+- <strong>🟠 Unlock Channels</strong></span>: Unlock text channels, allowing users to send messages again.
+- <strong>🟠 Rename Channel</strong></span>: Rename existing channels.
+- <strong>🟠 Rename Roles</strong></span>: Rename roles in the server.
+- <strong>🟠 Rename Guild</strong></span>: Rename the entire server (guild).
+- <strong>🟠 Spam Channels</strong></span>: Create and spam text channels in the server.
+- <strong>🔴 Kill Guild</strong></span>: This feature is extremely destructive and should be used with caution. It will attempt to fully take over and destroy the server, including deleting 
 
 ### Color Scheme for Danger Levels
 
-- <span style="color: #66FF66;"><strong>Green</strong></span>: Low-risk actions (e.g., banning/unbanning members)
-  - `#66FF66` (Soft Green)
+- <strong>Green</strong>: Low-risk actions 
 
-- <span style="color: #FFCC66;"><strong>Orange</strong></span>: Moderate-risk actions (e.g., creating/deleting channels or roles)
-  - `#FFCC66` (Soft Orange)
+- <strong>Orange</strong>: Moderate-risk actions 
 
-- <span style="color: #FF6666;"><strong>Red</strong></span>: High-risk, highly destructive actions (e.g., **Rape Guild**)
-  - `#FF6666` (Soft Red)
+- <strong>Red</strong>: High-risk, highly destructive actions 
 
 
 ## Prerequisites
 
-- **Python 3.x** (preferably Python 3.8 or higher)
+- **Python 3.x** (preferably Python 3.10.11)
 - **Discord.py Library**: Install it using `pip install discord.py`
+- **requests Library**: Install it using `pip install requests`
+- **pystyle Library**: Install it using `pip install pystyle`
 - **A Discord bot token**: Create a bot on the [Discord Developer Portal](https://discord.com/developers/applications) and get the token.
 
 
@@ -59,4 +58,4 @@ If you misuse this tool, the responsibility falls solely on you, and I will **NO
 
 ---
 
-<span style="color:rgba(255, 255, 255, 0.2);"><small>Version: v1.0</small></span>
+Version: v1.0
